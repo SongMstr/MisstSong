@@ -35,35 +35,39 @@
       4. Utilizare la libreria Math.h para realizar los calculos complejos que se necesiten en el programa.
          
 ### Subrutinas:
-    Para las subrutinas, asignare una para cada "case", asi que, cuando se eliga un case, primero se limpia la pantalla y luego 
-    se inicia la subrutina. 
+    Para las subrutinas, asignare una para cada "case", asi que, cuando se eliga un case, primero se limpia la pantalla y 
+    luego se inicia la subrutina. 
     
     1. Subrutina para agregar el nuevo dato de ingreso o void nuevo():
-       Lo que busco aqui es hacer una rutina antierror, ya que un problema con mi programa, es que, ya debe de existir un archivo,
-       para que funcione, pero lo que yo busco es que cree y escriba en un archivo nuevo el dato mas importante del programa el 
-       cual son los ingresos de las persona. Esta subrutina me debe de salvarme de el error y problema de que no exista el archivo,
-       un ejemplo seria que el usuario ya no gane la misma cantidad de dinero, no tiene porque modificar el archivo es mas comodo 
-       hacerlo desde la consola, asi que eligira la opcion de eliminar el archivo, lo elimina y luego de esto que llame a void nuevo()
-       para crear y hacer el nuevo dato que se guardara en un archivo aparte.
+       Lo que busco aqui es hacer una rutina antierror, ya que un problema con mi programa, es que, ya debe de existir un 
+       archivo, para que funcione, pero lo que yo busco es que cree y escriba en un archivo nuevo el dato mas importante 
+       del programa el cual son los ingresos de las persona. Esta subrutina me debe de salvarme de el error y problema de 
+       que no exista el archivo, un ejemplo seria que el usuario ya no gane la misma cantidad de dinero, no tiene porque 
+       modificar el archivo es mas comodo hacerlo desde la consola, asi que eligira la opcion de eliminar el archivo, lo 
+       elimina y luego de esto que llame a void nuevo() para crear y hacer el nuevo dato que se guardara en un archivo aparte.
     2. Subrutina Eliminar:
-       Esta subrutina es simple, sirve para eliminar el archivo de los ingresos dando pie para escribir uno nuevo llamandovoid nuevo().
+       Esta subrutina es simple, sirve para eliminar el archivo de los ingresos dando pie para escribir uno nuevo llamando 
+       a void nuevo().
     3. Subrutina Mis Ingresos:
-       Es la mas simple de todas las subrutinas, solo mostrara una los ingresos que el usuario escribio en la subrutina void nuevo().
+       Es la mas simple de todas las subrutinas, solo mostrara una los ingresos que el usuario escribio en la subrutina 
+       void nuevo().
     4. Subrutina Inversiones:
-       Esta subrutina es la que sigue en estudio, pero lo mas seguro es que usare de ejemplo el banco nacional de México (BBVA), con su 
-       plan de inversiones en donde solo tomare en cuenta, los datos que ofrecen de las ventajs de invertir con ellos, pero sigue en
-       estudio los calculos de como hacerlo.
+       Esta subrutina es la que sigue en estudio, pero lo mas seguro es que usare de ejemplo el banco nacional de México 
+       (BBVA), con su plan de inversiones en donde solo tomare en cuenta, los datos que ofrecen de las ventajs de invertir 
+       con ellos, pero sigue en estudio los calculos de como hacerlo.
     5. Subrutina Gastos:
-       En este apartado se tratara el tema de ingresos vs gastos, esto haciendo un calculo de cuanto gasta en promedio de un mes vs 
-       cuanto gana en un mes, haciendo de este una simple tabla de comparacion en donde se dara el resultado de si se hace rendir 
-       el dinero o se deslpifarra. En esto estoy pensado en hacer dos archiovos uno en el que se sume el ingreso quiencenal que 
-       introdusca el usuario para tenrlo em meses y en otro donde se sumen los gastos (este sera un archivo hecho por mi, ya que
-       hacer la parte de gastos se supone que esta ligada a la terjeta de debito que posee el usuario, o mas adelante agregar la subrutina 
-       de nuevo gasto para llevar un mejor control; como se vaya viendo) para hacer una comparacion de cuanto fue la perdida de ingreso.
+       En este apartado se tratara el tema de ingresos vs gastos, esto haciendo un calculo de cuanto gasta en promedio de un mes
+       vs cuanto gana en un mes, haciendo de este una simple tabla de comparacion en donde se dara el resultado de si se 
+       hace rendir el dinero o se deslpifarra. En esto estoy pensado en hacer dos archiovos uno en el que se sume el ingreso 
+       quiencenal que introdusca el usuario para tenrlo em meses y en otro donde se sumen los gastos (este sera un archivo 
+       hecho por mi, ya que hacer la parte de gastos se supone que esta ligada a la terjeta de debito que posee el usuario, 
+       o mas adelante agregar la subrutina de nuevo gasto para llevar un mejor control; como se vaya viendo) para hacer una 
+       comparacion de cuanto fue la perdida de ingreso.
     6. Subrutina Extras:
-       Aqui lo usare para manipular la subrutina "Mis Ingresos" y Gastos, ya que, cuando trabajas no siempre ganas lo mismo, puede que recibas un bono, 
-       vales de despensa, comisiones o de una venta personal, incluso de un prestamo que hayas hecho, esto se agregara al archivo principal pero
-       solo como decoracion de suma donde indique que se ha agregado un ingreso extra y esta se vera reflejado en la subrutina Gastos.
+       Aqui lo usare para manipular la subrutina "Mis Ingresos" y Gastos, ya que, cuando trabajas no siempre ganas lo mismo, 
+       puede que recibas un bono, vales de despensa, comisiones o de una venta personal, incluso de un prestamo que hayas hecho, 
+       esto se agregara al archivo principal pero solo como decoracion de suma donde indique que se ha agregado un ingreso extra 
+       y esta se vera reflejado en la subrutina Gastos.
        
        
          
