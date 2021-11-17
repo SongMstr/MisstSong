@@ -14,8 +14,7 @@
         2. Subrutina Eliminar.
         3. Subrutina Mis Ingresos.
         4. Subrutina Inversiones.
-        5. Subrutina Gastos.
-        6. Subrutina Extras.
+        5. Subrutina Extras.
    
    Tambien usare algunas subrutinas que no se veran en consola, como la subrutina error, la cual servira para dar un
    mensaje de advertencia, cuando se quiera manipula el archivo y este haya sido eliminado o cambiado de lugar o nombre
@@ -43,27 +42,40 @@
        archivo, para que funcione, pero lo que yo busco es que cree y escriba en un archivo nuevo el dato mas importante 
        del programa el cual son los ingresos de las persona. Esta subrutina me debe de salvarme de el error y problema de 
        que no exista el archivo, un ejemplo seria que el usuario ya no gane la misma cantidad de dinero, no tiene porque 
-       modificar el archivo es mas comodo hacerlo desde la consola, asi que eligira la opcion de eliminar el archivo, lo 
-       elimina y luego de esto que llame a void nuevo() para crear y hacer el nuevo dato que se guardara en un archivo aparte.
+       modificar el archivo es mas comodo hacerlo desde la consola, asi que eligira la opcion de nuevo ingreso, se llama 
+       a la subrutina eliminar() despues se pasa a void nuevo() para crear y hacer el nuevo dato que se guardara en un archivo 
+       aparte.
     2. Subrutina Eliminar:
-       Esta subrutina es simple, sirve para eliminar el archivo de los ingresos dando pie para escribir uno nuevo llamando 
-       a void nuevo().
+       Esta subrutina es simple y se mantiene oculta, sirve para eliminar el archivo de los ingresos dando pie para escribir 
+       uno nuevo llamandoa void nuevo().
     3. Subrutina Mis Ingresos:
        Es la mas simple de todas las subrutinas, solo mostrara una los ingresos que el usuario escribio en la subrutina 
        void nuevo().
     4. Subrutina Inversiones:
-       Esta subrutina es la que sigue en estudio, pero lo mas seguro es que usare de ejemplo el banco nacional de México 
-       (BBVA), con su plan de inversiones en donde solo tomare en cuenta, los datos que ofrecen de las ventajs de invertir 
-       con ellos, pero sigue en estudio los calculos de como hacerlo.
-    5. Subrutina Gastos:
-       En este apartado se tratara el tema de ingresos vs gastos, esto haciendo un calculo de cuanto gasta en promedio de un mes
-       vs cuanto gana en un mes, haciendo de este una simple tabla de comparacion en donde se dara el resultado de si se 
-       hace rendir el dinero o se deslpifarra. En esto estoy pensado en hacer dos archiovos uno en el que se sume el ingreso 
-       quiencenal que introdusca el usuario para tenrlo em meses y en otro donde se sumen los gastos (este sera un archivo 
-       hecho por mi, ya que hacer la parte de gastos se supone que esta ligada a la terjeta de debito que posee el usuario, 
-       o mas adelante agregar la subrutina de nuevo gasto para llevar un mejor control; como se vaya viendo) para hacer una 
-       comparacion de cuanto fue la perdida de ingreso.
-    6. Subrutina Extras:
+        Aqui esta puesta la calculadorda es el centro del proyecto, se calculan las cosas que no tiene muy en cuenta las 
+        personas, donde se responden las preguntas, ¿ cuanto dinero ganare si escojo esta opcion ?. 
+          En esta subrutina se agregan las opciones de ahorro e inversiones que nos da el BBVA en el cual se nos incluye a 
+          modo de menu, dadas las opciones con un switch():
+            1. Apartados: En el banco BBVA, te da una opcion de hacer un apartado, el cual consiste en el separar una cantidad 
+                          fija de ingresos de la nomina del usuario, por un timepo dado en quincenas, se llamara al archivo.txt
+                          donde estara guardado la nomina del usuario, se lee el numero. Despues se le pide el dinero que se 
+                          quiere guardar (apartado, se soluciono un error en donde si el dinero que se quiere guardar es mayor 
+                          que al de nomina, mostrara un mensaje de error que nos envia de nuevo al menu de Inversiones. La 
+                          manera de arreglarlo es hacer un calculo el cual el numero que se ingresa el cuanto apartar, este 
+                          numero se guarda en una variable(n), despues se usa un if() donde, si (n) es menor que 0, entonces 
+                          manda mensaje de error, luego un }else{ que si (n) es mayor que 0, nos manda el caluculo y el programa 
+                          funciona normalmente) una ves se guarda calcula el en periodos quincenales.
+            2. Plan Bancarios: Aqui es mas sencillo, aqui la opcion es ganar un porcentaje del dinero que quieras guardar por
+                               compras que realizes con la tarjeta de debito, en el programa se le pide al usuario cuanto cuesta
+                               el objeto y justo despues de se pide el porcetaje que quiere guardar, ambos se guardan en variables
+                               distintas, y se multiplican entre mientras que se divide entre 100, para sacar el dinero que se
+                               gano con la compra y el porcentaje que escogio.
+            3.  Pagare: En esta opcion se da a escoger el dinero que quieres invertir en el banco en cual no se peude retirar
+                        el dinero hasta que se cumpla un plazo que el mismo usuario decide, en esta se agrega un menu extra para
+                        guiar al usuario sobre cuanto ganara si invierte en unidades mensuales.      
+    4. Adeudos: 
+       En esta subrutina es para dar al usuario de cuanto va a tener que pagar si pide un prestamo. 
+    5. Subrutina Extras:
        Aqui lo usare para manipular la subrutina "Mis Ingresos" y Gastos, ya que, cuando trabajas no siempre ganas lo mismo, 
        puede que recibas un bono, vales de despensa, comisiones o de una venta personal, incluso de un prestamo que hayas hecho, 
        esto se agregara al archivo principal pero solo como decoracion de suma donde indique que se ha agregado un ingreso extra 
