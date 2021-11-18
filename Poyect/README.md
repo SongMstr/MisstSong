@@ -79,6 +79,8 @@
        puede que recibas un bono, vales de despensa, comisiones o de una venta personal, incluso de un prestamo que hayas hecho, 
        esto se agregara al archivo principal pero solo como decoracion de suma donde indique que se ha agregado un ingreso extra 
        y esta se vera reflejado en la subrutina Gastos.
+# LINK DEL VIDEO:
+        https://youtu.be/bpMp2-bigks
        
        
          
