@@ -73,8 +73,7 @@
             3.  Pagare: En esta opcion se da a escoger el dinero que quieres invertir en el banco en cual no se peude retirar
                         el dinero hasta que se cumpla un plazo que el mismo usuario decide, en esta se agrega un menu extra para
                         guiar al usuario sobre cuanto ganara si invierte en unidades mensuales.      
-    4. Adeudos: 
-       En esta subrutina es para dar al usuario de cuanto va a tener que pagar si pide un prestamo. 
+   
     5. Subrutina Extras:
        Aqui lo usare para manipular la subrutina "Mis Ingresos" y Gastos, ya que, cuando trabajas no siempre ganas lo mismo, 
        puede que recibas un bono, vales de despensa, comisiones o de una venta personal, incluso de un prestamo que hayas hecho, 
